@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Midushekaa | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <!-- Image Modal -->
+  <div id="imageModal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="modalImage">
+    <div id="caption"></div>
+  </div>
+
+  <header>
+    <div class="logo">Midushekaa<span>.</span></div>
+    <nav class="navbar">
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#journey">Journey</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#project">Projects</a></li>
+        <li><a href="#contact" class="nav-contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="hero-bg-blobs">
+      <div class="blob blob-1"></div>
+      <div class="blob blob-2"></div>
+      <div class="blob blob-3"></div>
+    </div>
+    <div class="content">
+      <h3 data-aos="fade-down">Hello, It's Me</h3>
+      <h1 data-aos="fade-up" data-aos-delay="200">Midushekaa</h1>
+      <h4 data-aos="fade-up" data-aos-delay="400">
+        And I'm a <span>Full Stack Developer</span>
+      </h4>
+      <p data-aos="fade-up" data-aos-delay="600">
+        Full Stack Developer skilled in both front-end and back-end technologies, building responsive and efficient web
+        applications. Passionate about creating seamless user experiences and writing clean, maintainable code.
+      </p>
+      <div class="social-icons" data-aos="fade-up" data-aos-delay="800">
+        <a href="https://github.com/Midushekaa" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/midushekaa-kunrakumaren/" target="_blank"><i
+            class="fab fa-linkedin"></i></a>
+      </div>
+      <a href="Midushekaa_CV.pdf" class="btn btn-cv" download data-aos="zoom-in" data-aos-delay="1000">
+        <i class="fas fa-download"></i> Download CV
+      </a>
+    </div>
+
+    <div class="profile-images" data-aos="fade-left" data-aos-delay="1200">
+      <img src="Midu.jpg" alt="Midushekaa" />
+    </div>
+  </section>
+
+  <section id="about">
+    <h2 data-aos="fade-down">About Me</h2>
+    <div class="about-container">
+      <div class="profile-image" data-aos="zoom-in">
+        <img src="Midu.jpg" alt="Profile Image" />
+      </div>
+      <div class="about-text" data-aos="fade-left">
+        <p>
+          I am a <strong>Software Engineer</strong> passionate about building applications that make a real impact. I
+          have hands-on experience designing and developing <strong>secure, scalable, and responsive web
+            applications</strong> using <strong>MongoDB, Express.js, React, and Node.js (MERN stack)</strong>. Together
+          with my team, I contributed to the development of the <strong>District Transfer Management System</strong> for
+          the <strong>Ampara District Secretariat</strong>, delivering reliable solutions for real-world government
+          workflows.
+        </p>
+        <p>
+          I am skilled in both <strong>frontend technologies</strong> (React, Next.js) and <strong>backend
+            frameworks</strong> (Express.js, Nest.js), with additional experience in <strong>desktop application
+            development</strong>. I am known for writing <strong>clean, maintainable code</strong>, applying
+          <strong>clean architecture principles</strong>, and collaborating effectively in <strong>fast-paced
+            teams</strong> to deliver high-quality features on time.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="journey" class="section">
+    <div class="container">
+      <h2>My Journey</h2>
+      <div class="journey-container">
+        <!-- Education -->
+        <div class="journey-section">
+          <h3>Education</h3>
+          <div class="journey-item">
+            <h4>BEng (Hons) in Software Engineering</h4>
+            <p><strong>Status:</strong> Currently Pursuing</p>
+            <p><strong>Institute:</strong> ESOFT Metro Campus</p>
+            <p><strong>Duration:</strong> Present</p>
+          </div>
+          <div class="journey-item">
+            <h4>Higher National Diploma in Software Engineering</h4>
+            <p><strong>Status:</strong> Completed</p>
+            <p><strong>Institute:</strong> IDM Achievers International Campus</p>
+            <p><strong>Duration:</strong> 2023 – 2025</p>
+          </div>
+          <div class="journey-item">
+            <h4>Diploma in English</h4>
+            <p><strong>Status:</strong> Completed</p>
+            <p><strong>Institute:</strong> IDM Achievers International Campus</p>
+            <p><strong>Duration:</strong> 2023</p>
+          </div>
+          <div class="journey-item">
+            <h4>Diploma in ICT and Computing (Level 04)</h4>
+            <p><strong>Status:</strong> Completed</p>
+            <p><strong>Institute:</strong> IDM Achievers International Campus</p>
+            <p><strong>Duration:</strong> 2023</p>
+          </div>
+        </div>
+        <!-- Experience -->
+        <div class="journey-section">
+          <h3>Experience</h3>
+          <div class="journey-item">
+            <h4>Front-End Developer (District-Transfer-Management-System)</h4>
+            <p><strong>Duration:</strong> 2024 - Present</p>
+            <p>The District Transfer Management System is a React-based web application designed to streamline and
+              manage employee transfer processes across districts.</p>
+          </div>
+          <div class="journey-item">
+            <h4>Web Developer – Rina Bake House, Kalmunai</h4>
+            <p><strong>Duration:</strong> 2024</p>
+            <p>Built a fully responsive front-end for Rina Bake House, featuring product displays, online ordering, and
+              customer feedback functions.</p>
+          </div>
+          <div class="journey-item">
+            <h4>Web Developer</h4>
+            <p><strong>Duration:</strong> 2023 - 2024</p>
+            <p>I studied at IDM City Campus, where I built a web-based system that strengthened my skills and experience
+              in web development.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>My Skills</h2>
+    <div class="skills-grid">
+      <div class="skill">
+        <div class="skill-token">
+          <img src="https://cdn-icons-png.flaticon.com/24/732/732212.png" alt="HTML" class="skill-icon" />
+          HTML
+        </div>
+        <div class="skill-bar">
+          <div class="skill-level" style="width:95%;" data-percent="95%"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <div class="skill-token">
+          <img src="https://cdn-icons-png.flaticon.com/24/732/732190.png" alt="CSS" class="skill-icon" />
+          CSS
+        </div>
+        <div class="skill-bar">
+          <div class="skill-level" style="width:90%;" data-percent="90%"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <div class="skill-token">
+          <img src="https://cdn-icons-png.flaticon.com/24/5968/5968292.png" alt="JavaScript" class="skill-icon" />
+          JavaScript
+        </div>
+        <div class="skill-bar">
+          <div class="skill-level" style="width:85%;" data-percent="85%"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <div class="skill-token">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" alt="C#"
+            class="skill-icon" />
+          C#
+        </div>
+        <div class="skill-bar">
+          <div class="skill-level" style="width:80%;" data-percent="80%"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <div class="skill-token">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt="PHP"
+            class="skill-icon" />
+          PHP
+        </div>
+        <div class="skill-bar">
+          <div class="skill-level" style="width:75%;" data-percent="75%"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <div class="skill-token">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL"
+            class="skill-icon" />
+          MySQL
+        </div>
+        <div class="skill-bar">
+          <div class="skill-level" style="width:70%;" data-percent="70%"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <div class="skill-token">
+          <img src="https://cdn-icons-png.flaticon.com/24/919/919851.png" alt="React" class="skill-icon" />
+          React
+        </div>
+        <div class="skill-bar">
+          <div class="skill-level" style="width:80%;" data-percent="80%"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <div class="skill-token">
+          <img src="https://cdn-icons-png.flaticon.com/24/5968/5968672.png" alt="Bootstrap" class="skill-icon" />
+          Bootstrap
+        </div>
+        <div class="skill-bar">
+          <div class="skill-level" style="width:80%;" data-percent="80%"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <div class="skill-token">
+          <img src="https://cdn-icons-png.flaticon.com/24/919/919825.png" alt="Node.js" class="skill-icon" />
+          Node.js
+        </div>
+        <div class="skill-bar">
+          <div class="skill-level" style="width:75%;" data-percent="75%"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <div class="skill-token">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt="Express.js"
+            class="skill-icon" />
+          Express.js
+        </div>
+        <div class="skill-bar">
+          <div class="skill-level" style="width:75%;" data-percent="75%"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <div class="skill-token">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB"
+            class="skill-icon" />
+          MongoDB
+        </div>
+        <div class="skill-bar">
+          <div class="skill-level" style="width:70%;" data-percent="70%"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <div class="skill-token">
+          <img src="https://cdn-icons-png.flaticon.com/24/1822/1822899.png" alt="Python" class="skill-icon" />
+          Python
+        </div>
+        <div class="skill-bar">
+          <div class="skill-level" style="width:80%;" data-percent="80%"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <div class="skill-token">
+          <img src="https://cdn-icons-png.flaticon.com/24/733/733553.png" alt="GitHub" class="skill-icon" />
+          GitHub
+        </div>
+        <div class="skill-bar">
+          <div class="skill-level" style="width:75%;" data-percent="75%"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="services">
+    <h2>Services</h2>
+    <div class="services-container">
+      <div class="service-box">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="Website Design"
+          class="service-img">
+        <h3>Website Design</h3>
+        <p>Custom and visually appealing website designs tailored to your brand identity and user needs.</p>
+      </div>
+      <div class="service-box">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="Web Development"
+          class="service-img">
+        <h3>Web Development</h3>
+        <p>Full-stack web development services using modern technologies like HTML, CSS, JavaScript, React, Node.js, and
+          MongoDB.</p>
+      </div>
+      <div class="service-box">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
+          alt="Responsive Layout" class="service-img">
+        <h3>Responsive Layout</h3>
+        <p>Mobile-friendly, responsive layouts that ensure your site looks great on all devices.</p>
+      </div>
+      <div class="service-box">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg" alt="Landing Pages"
+          class="service-img">
+        <h3>Landing Pages</h3>
+        <p>High-converting landing pages for businesses or individuals to showcase products and services.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="project">
+    <h2>Projects</h2>
+    <div class="projects-container">
+      <div class="project-box">
+        <img src="project1.jpg" alt="District Transfer Management System" />
+        <div class="project-content">
+          <h3>District Transfer Management System</h3>
+          <p>A full-stack MERN application that handles transfer applications, role-based approvals, and user dashboards.</p>
+          <div class="project-links">
+            <a href="https://dtms.vercel.app/" target="_blank" class="btn btn-demo"><i class="fa-solid fa-link"></i> Live Demo</a>
+            <a href="https://github.com/Midushekaa/DTMS-project-.git" target="_blank" class="btn btn-github"><i class="fa-brands fa-github"></i> GitHub</a>
+          </div>
+        </div>
+      </div>
+      <div class="project-box">
+        <img src="project2.png" alt="Responsive Bakery Website" />
+        <div class="project-content">
+          <h3>Responsive Bakery Website</h3>
+          <p>A beautifully designed front-end site showcasing bakery products with responsive layout and animations.</p>
+          <div class="project-links">
+            <a href="https://midushekaa.github.io/Cake-website/" target="_blank" class="btn btn-demo"><i class="fa-solid fa-link"></i> Live Demo</a>
+            <a href="https://github.com/Midushekaa/Cake-ordering-website.git" target="_blank" class="btn btn-github"><i class="fa-brands fa-github"></i> GitHub</a>
+          </div>
+        </div>
+      </div>
+      <div class="project-box">
+        <img src="Meditrack.jpg" alt="MediTrack" />
+        <div class="project-content">
+          <h3>MediTrack</h3>
+          <p>A mobile-focused MERN stack application for medication reminders and tracking health records efficiently.</p>
+          <div class="project-links">
+            <a href="#" target="_blank" class="btn btn-demo"><i class="fa-solid fa-link"></i> Live Demo</a>
+            <a href="#" target="_blank" class="btn btn-github"><i class="fa-brands fa-github"></i> GitHub</a>
+          </div>
+        </div>
+      </div>
+      <div class="project-box">
+        <img src="StudySphere AI ChatBot.jpg" alt="StudySphere AI ChatBot" />
+        <div class="project-content">
+          <h3>StudySphere AI ChatBot</h3>
+          <p>An AI-powered educational chatbot designed to assist students with learning resources and query resolution.</p>
+          <div class="project-links">
+            <a href="" target="_blank" class="btn btn-demo"><i class="fa-solid fa-link"></i> Live Demo</a>
+            <a href="https://github.com/Midushekaa/StudySphere-AI.git" target="_blank" class="btn btn-github"><i class="fa-brands fa-github"></i> GitHub</a>
+          </div>
+        </div>
+      </div>
+      <div class="project-box">
+        <img src="UniManage – University Course Management System (UCMS).jpg" alt="UniManage" />
+        <div class="project-content">
+          <h3>UniManage (UCMS)</h3>
+          <p>A comprehensive university course management system for tracking enrollments, schedules, and academic progress.</p>
+          <div class="project-links">
+            <a href="#" target="_blank" class="btn btn-demo"><i class="fa-solid fa-link"></i> Live Demo</a>
+            <a href="#" target="_blank" class="btn btn-github"><i class="fa-brands fa-github"></i> GitHub</a>
+          </div>
+        </div>
+      </div>
+      <div class="project-box">
+        <img src="SaleMart.jpg" alt="SaleMart" />
+        <div class="project-content">
+          <h3>SaleMart</h3>
+          <p>A modern e-commerce platform with a focus on seamless user experience and efficient inventory management.</p>
+          <div class="project-links">
+            <a href="" target="_blank" class="btn btn-demo"><i class="fa-solid fa-link"></i> Live Demo</a>
+            <a href="https://github.com/Midushekaa/SaleMart-Frontend-main.git" target="_blank" class="btn btn-github"><i class="fa-brands fa-github"></i> GitHub</a>
+          </div>
+        </div>
+      </div>
+      <div class="project-box">
+        <img src="project3.jpg" alt="Flower Shop Website" />
+        <div class="project-content">
+          <h3>Flower Shop Website</h3>
+          <p>A dynamic flower shop website with full-stack integration using HTML, CSS, JavaScript, and MySQL.</p>
+          <div class="project-links">
+            <a href="https://midushekaa.github.io/Flowers-shop-web-site-/" target="_blank" class="btn btn-demo"><i class="fa-solid fa-link"></i> Live Demo</a>
+            <a href="https://github.com/Midushekaa/Cake-ordering-website.git" target="_blank" class="btn btn-github"><i class="fa-brands fa-github"></i> GitHub</a>
+          </div>
+        </div>
+      </div>
+      <div class="project-box">
+        <img src="project4.jpg" alt="Food Website" />
+        <div class="project-content">
+          <h3>Food Website (TastyTech)</h3>
+          <p>A food ordering website with a dynamic and responsive frontend and a MySQL backend system.</p>
+          <div class="project-links">
+            <a href="https://midushekaa.github.io/Food-website/" target="_blank" class="btn btn-demo"><i class="fa-solid fa-link"></i> Live Demo</a>
+            <a href="https://github.com/Midushekaa/Food-website.git" target="_blank" class="btn btn-github"><i class="fa-brands fa-github"></i> GitHub</a>
+          </div>
+        </div>
+      </div>
+      <div class="project-box">
+        <img src="burger.jpg" alt="Burger Website" />
+        <div class="project-content">
+          <h3>Burger Website (Grill Heaven)</h3>
+          <p>A responsive website built with HTML, CSS, and JS showcasing a burger menu and interactive UI.</p>
+          <div class="project-links">
+            <a href="https://midushekaa.github.io/Burger-website/" target="_blank" class="btn btn-demo"><i class="fa-solid fa-link"></i> Live Demo</a>
+            <a href="https://github.com/Midushekaa/Burger-website.git" target="_blank" class="btn btn-github"><i class="fa-brands fa-github"></i> GitHub</a>
+          </div>
+        </div>
+      </div>
+      <div class="project-box">
+        <img src="reseme.jpg" alt="Resume Maker" />
+        <div class="project-content">
+          <h3>Resume Maker</h3>
+          <p>A web-based Resume Maker allowing users to create, preview, and download professional PDF resumes.</p>
+          <div class="project-links">
+            <a href="https://midushekaa.github.io/Resume-maker/" target="_blank" class="btn btn-demo"><i class="fa-solid fa-link"></i> Live Demo</a>
+            <a href="https://github.com/Midushekaa/Resume-maker.git" target="_blank" class="btn btn-github"><i class="fa-brands fa-github"></i> GitHub</a>
+          </div>
+        </div>
+      </div>
+      <div class="project-box">
+        <img src="project5.jpg" alt="Countdown App" />
+        <div class="project-content">
+          <h3>Countdown App 2025</h3>
+          <p>A simple countdown timer application built using HTML, CSS, and JavaScript for target dates.</p>
+          <div class="project-links">
+            <a href="https://midushekaa.github.io/new-year-calculator-/" target="_blank" class="btn btn-demo"><i class="fa-solid fa-link"></i> Live Demo</a>
+            <a href="https://github.com/Midushekaa/new-year-calculator-.git" target="_blank" class="btn btn-github"><i class="fa-brands fa-github"></i> GitHub</a>
+          </div>
+        </div>
+      </div>
+      <div class="project-box">
+        <img src="project6.jpg" alt="Vegetable Shop" />
+        <div class="project-content">
+          <h3>Vegetable Shop (Fresh Fruit Hub)</h3>
+          <p>A responsive vegetable e-commerce website built using HTML, CSS, JavaScript, and Bootstrap.</p>
+          <div class="project-links">
+            <a href="https://midushekaa.github.io/Fruit-web-site-/" target="_blank" class="btn btn-demo"><i class="fa-solid fa-link"></i> Live Demo</a>
+            <a href="https://github.com/Midushekaa/Fruit-web-site-.git" target="_blank" class="btn btn-github"><i class="fa-brands fa-github"></i> GitHub</a>
+          </div>
+        </div>
+      </div>
+      <div class="project-box">
+        <img src="project7.jpg" alt="Learn Hub" />
+        <div class="project-content">
+          <h3>Learning Website (Learn Hub)</h3>
+          <p>An educational website featuring interactive lessons and resources for programming concepts.</p>
+          <div class="project-links">
+            <a href="https://midushekaa.github.io/Learning-websites/" target="_blank" class="btn btn-demo"><i class="fa-solid fa-link"></i> Live Demo</a>
+            <a href="https://github.com/Midushekaa/Learning-websites.git" target="_blank" class="btn btn-github"><i class="fa-brands fa-github"></i> GitHub</a>
+          </div>
+        </div>
+      </div>
+      <div class="project-box">
+        <img src="project8.jpg" alt="Pizza Planet" />
+        <div class="project-content">
+          <h3>Pizza Website (Pizza Planet)</h3>
+          <p>A dynamic pizza ordering website with backend integration using PHP and MySQL.</p>
+          <div class="project-links">
+            <a href="https://midushekaa.github.io/Pizza-Planet-Pizza-Ordering-Website-/" target="_blank" class="btn btn-demo"><i class="fa-solid fa-link"></i> Live Demo</a>
+            <a href="https://github.com/Midushekaa/Pizza-Planet-Pizza-Ordering-Website-.git" target="_blank" class="btn btn-github"><i class="fa-brands fa-github"></i> GitHub</a>
+          </div>
+        </div>
+      </div>
+      <div class="project-box">
+        <img src="pizza.jpg" alt="Pizza Website" />
+        <div class="project-content">
+          <h3>Pizza Ordering Frontend</h3>
+          <p>Attractive and responsive pizza ordering frontend built with HTML, CSS, and JavaScript.</p>
+          <div class="project-links">
+            <a href="https://midushekaa.github.io/Pizza-website/" target="_blank" class="btn btn-demo"><i class="fa-solid fa-link"></i> Live Demo</a>
+            <a href="https://github.com/Midushekaa/Pizza-website.git" target="_blank" class="btn btn-github"><i class="fa-brands fa-github"></i> GitHub</a>
+          </div>
+        </div>
+      </div>
+      <div class="project-box">
+        <img src="image.jpg" alt="BMI Calculator" />
+        <div class="project-content">
+          <h3>BMI Calculator</h3>
+          <p>A simple web-based tool that calculates BMI and provides health categories based on weight and height.</p>
+          <div class="project-links">
+            <a href="https://midushekaa.github.io/BMI-Calculator/" target="_blank" class="btn btn-demo"><i class="fa-solid fa-link"></i> Live Demo</a>
+            <a href="https://github.com/Midushekaa/BMI-Calculator.git" target="_blank" class="btn btn-github"><i class="fa-brands fa-github"></i> GitHub</a>
+          </div>
+        </div>
+      </div>
+      <div class="project-box">
+        <img src="green.jpg" alt="Green Basket" />
+        <div class="project-content">
+          <h3>Green Basket</h3>
+          <p>Online platform for fresh groceries with shopping cart and order management built with PHP.</p>
+          <div class="project-links">
+            <a href="https://midushekaa.github.io/Green-Basket/" target="_blank" class="btn btn-demo"><i class="fa-solid fa-link"></i> Live Demo</a>
+            <a href="https://github.com/Midushekaa/Green-Basket.git" target="_blank" class="btn btn-github"><i class="fa-brands fa-github"></i> GitHub</a>
+          </div>
+        </div>
+      </div>
+      <div class="project-box">
+        <img src="project9.jpg" alt="Cookie Bliss" />
+        <div class="project-content">
+          <h3>Cookies Website (Cookie Bliss)</h3>
+          <p>Responsive e-commerce website showcasing a variety of cookies with smooth animations.</p>
+          <div class="project-links">
+            <a href="https://midushekaa.github.io/Cookie-Bliss-/" target="_blank" class="btn btn-demo"><i class="fa-solid fa-link"></i> Live Demo</a>
+            <a href="https://github.com/Midushekaa/Cookie-Bliss-.git" target="_blank" class="btn btn-github"><i class="fa-brands fa-github"></i> GitHub</a>
+          </div>
+        </div>
+      </div>
+      <div class="project-box">
+        <img src="project14.jpg" alt="Bubble Tea Bliss" />
+        <div class="project-content">
+          <h3>Bubble Tea Website</h3>
+          <p>Modern responsive website showcasing a bubble tea shop menu with vibrant images.</p>
+          <div class="project-links">
+            <a href="https://midushekaa.github.io/Bubble-tea-website/" target="_blank" class="btn btn-demo"><i class="fa-solid fa-link"></i> Live Demo</a>
+            <a href="https://github.com/Midushekaa/Bubble-tea-website.git" target="_blank" class="btn btn-github"><i class="fa-brands fa-github"></i> GitHub</a>
+          </div>
+        </div>
+      </div>
+      <div class="project-box">
+        <img src="project10.jpg" alt="Creay Cup" />
+        <div class="project-content">
+          <h3>Coffee Website (Creay Cup)</h3>
+          <p>Modern coffee-themed website featuring product displays and blog highlights.</p>
+          <div class="project-links">
+            <a href="https://midushekaa.github.io/coffee-website/" target="_blank" class="btn btn-demo"><i class="fa-solid fa-link"></i> Live Demo</a>
+            <a href="https://github.com/Midushekaa/coffee-website.git" target="_blank" class="btn btn-github"><i class="fa-brands fa-github"></i> GitHub</a>
+          </div>
+        </div>
+      </div>
+      <div class="project-box">
+        <img src="project11.jpg" alt="Macaron Magic" />
+        <div class="project-content">
+          <h3>Macaron Shop Website</h3>
+          <p>Visually appealing macaron-themed website with interactive UI elements.</p>
+          <div class="project-links">
+            <a href="https://midushekaa.github.io/Macaron-Magic/" target="_blank" class="btn btn-demo"><i class="fa-solid fa-link"></i> Live Demo</a>
+            <a href="https://github.com/Midushekaa/Macaron-Magic.git" target="_blank" class="btn btn-github"><i class="fa-brands fa-github"></i> GitHub</a>
+          </div>
+        </div>
+      </div>
+      <div class="project-box">
+        <img src="project12.png" alt="Creamy Dreams" />
+        <div class="project-content">
+          <h3>Ice Cream Website (Creamy Dreams)</h3>
+          <p>Responsive ice cream e-commerce website with product galleries and categories.</p>
+          <div class="project-links">
+            <a href="https://midushekaa.github.io/Ice-cream-web-site/" target="_blank" class="btn btn-demo"><i class="fa-solid fa-link"></i> Live Demo</a>
+            <a href="https://github.com/Midushekaa/Ice-cream-web-site.git" target="_blank" class="btn btn-github"><i class="fa-brands fa-github"></i> GitHub</a>
+          </div>
+        </div>
+      </div>
+      <div class="project-box">
+        <img src="Project13.jpg" alt="Tic Tac Toe" />
+        <div class="project-content">
+          <h3>Tic-Tac-Toe Game</h3>
+          <p>Interactive web game built with HTML, CSS, and JS featuring a modern dark theme.</p>
+          <div class="project-links">
+            <a href="https://midushekaa.github.io/Tic-Tac-Toe-game/" target="_blank" class="btn btn-demo"><i class="fa-solid fa-link"></i> Live Demo</a>
+            <a href="https://github.com/Midushekaa/Tic-Tac-Toe-game.git" target="_blank" class="btn btn-github"><i class="fa-brands fa-github"></i> GitHub</a>
+          </div>
+        </div>
+      </div>
+      <div class="project-box">
+        <img src="images.jpg" alt="Skyline Hostel" />
+        <div class="project-content">
+          <h3>Hotel Booking System</h3>
+          <p>Web application for booking hotel rooms online with admin management features.</p>
+          <div class="project-links">
+            <a href="https://midushekaa.github.io/Hotel-booking/" target="_blank" class="btn btn-demo"><i class="fa-solid fa-link"></i> Live Demo</a>
+            <a href="https://github.com/Midushekaa/Hotel-booking.git" target="_blank" class="btn btn-github"><i class="fa-brands fa-github"></i> GitHub</a>
+          </div>
+        </div>
+      </div>
+      <div class="project-box">
+        <img src="Python.jpg" alt="Python Calculator" />
+        <div class="project-content">
+          <h3>Python Calculator</h3>
+          <p>Simple Python program that performs basic arithmetic operations for practice.</p>
+          <div class="project-links">
+            <a href="https://github.com/Midushekaa/python-calculator.git" target="_blank" class="btn btn-github"><i class="fa-brands fa-github"></i> GitHub</a>
+          </div>
+        </div>
+      </div>
+      <div class="project-box">
+        <img src="research.png" alt="Research Amazon" />
+        <div class="project-content">
+          <h3>Research Paper: Amazon Expansion</h3>
+          <p>A study on Amazon’s expansion into Sri Lanka and its market implications.</p>
+          <div class="project-links">
+            <a href="https://drive.google.com/file/d/11MYNYqK8zlQBqbrnNleC7IUcUgOdCxEP/view?usp=drive_link" target="_blank" class="btn btn-demo"><i class="fa-solid fa-file-pdf"></i> View PDF</a>
+          </div>
+        </div>
+      </div>
+      <div class="project-box">
+        <img src="RESEARCH copy.png" alt="Research Teenagers" />
+        <div class="project-content">
+          <h3>Research Paper: Smartphone Use</h3>
+          <p>Impact of smartphone use among teenagers and its ecological footprint.</p>
+          <div class="project-links">
+            <a href="https://drive.google.com/file/d/1vsIcIzdypMzWSuAEc2VqSi1fG4R6wopM/view?usp=drive_link" target="_blank" class="btn btn-demo"><i class="fa-solid fa-file-pdf"></i> View PDF</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <div class="contact-form-container">
+      <form class="contact-form" action="#" method="post">
+        <div class="form-row double">
+          <input type="text" id="name" name="name" placeholder="Full Name" required />
+          <input type="email" id="email" name="email" placeholder="Email Address" required />
+        </div>
+        <div class="form-row double">
+          <input type="tel" id="phone" name="phone" placeholder="Mobile Number" />
+          <input type="text" id="subject" name="subject" placeholder="Subject" />
+        </div>
+        <div class="form-row">
+          <textarea id="message" name="message" rows="6" placeholder="Your Message" required></textarea>
+        </div>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <button id="back-to-top" class="back-to-top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+</body>
+
+</html>
